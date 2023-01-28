@@ -20,11 +20,16 @@ POS App
 
 
 * Pages: 
-	- Login
+	- login
 	- adminDashboard
 	- salesReport
 	- cashier
 	- payment
+
+* Components:
+	- sidebar
+	- card
+	- cart
 
 * Database: 
 	- users: id, username, password, role, created_at
