@@ -15,8 +15,8 @@ POS App
 	- tailwindcss: <pre><code>npm install -D tailwindcss</code></pre>
 		<pre><code>npx tailwindcss init</code></pre>
 
-	- Backend: <pre><code>npm i express body-parser cors json-web-token bcrypt</code></pre>
-	- ORM: <pre><code>npm install --save-dev sequelize sequelize-cli mysql2</code></pre>
+	- Backend: <pre><code>npm i express body-parser mysql2 cors json-web-token bcrypt</code></pre>
+	- ORM: <pre><code>npm install --save-dev sequelize sequelize-cli</code></pre>
 	       <pre><code>npx sequelize-cli init</code></pre>
 
 
