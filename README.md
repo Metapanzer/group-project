@@ -8,7 +8,7 @@ POS App
 * Framework: ReactJS
 * Library: 
 	- Frontend: tailwindcss, chakraui, react router dom, react hot toast, react icon, formik, yup, axios, 
-	- Backend: express, mysql2, sequelize, cors, jwt, bcrypt,
+	- Backend: express, mysql2, sequelize, cors, json web token, bcrypt,
 
 * Installation:
 	- Frontend: npm i @chakra-ui/icons @chakra-ui/react @emotion/react @emotion/styled axios react-router-dom@6 formik yup react-hot-toast react-icons
