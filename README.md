@@ -18,7 +18,6 @@ POS App
 	- ORM: <pre><code>npm install --save-dev sequelize sequelize-cli</code></pre>
 	       <pre><code>npx sequelize-cli init</code></pre>
 
-
 * Pages: 
 	- login
 	- adminDashboard
@@ -37,5 +36,7 @@ POS App
 	- categories: id, category_name, created_at
 	- transactions: id, total_price, payment_status, created_at, expired_at, users_id
 	- transaction_details: id, products_name, price, quantity, notes, transaction_id
+
+* assets: https://github.com/igdev116/free-food-menus-api/tree/main/menus
 
 * UI Design: https://www.figma.com/file/5o5wRaoJB05KlBOzQkLAFs/Food-POS-Dark---Tablet-Device-(Community)?node-id=0%3A1&t=5TH8IHR2u8JONIxt-0
