@@ -21,6 +21,7 @@ POS App
 * Pages: 
 	- login
 	- adminDashboard
+	- userManagement
 	- salesReport
 	- cashier
 	- payment
