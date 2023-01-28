@@ -1,5 +1,4 @@
-# group-project
-Sandy-Rohmat Group Project
+# Sandy-Rohmat Group Project
 
 
 POS App
