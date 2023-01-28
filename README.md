@@ -12,13 +12,12 @@ POS App
 
 * Installation:
 	- Frontend: <pre><code>npm i @chakra-ui/icons @chakra-ui/react @emotion/react @emotion/styled axios react-router-dom@6 formik yup react-hot-toast react-icons</code></pre>
-	- tailwindcss: 
-			1. npm install -D tailwindcss
-			2. npx tailwindcss init
+	- tailwindcss: <pre><code>npm install -D tailwindcss</code></pre>
+		<pre><code>npx tailwindcss init</code></pre>
 
-	- Backend: npm i express body-parser cors json-web-token bcrypt
-	- ORM: 1. npm install --save-dev sequelize sequelize-cli mysql2
-	       2. npx sequelize-cli init
+	- Backend: <pre><code>npm i express body-parser cors json-web-token bcrypt</code></pre>
+	- ORM: <pre><code>npm install --save-dev sequelize sequelize-cli mysql2</code></pre>
+	       <pre><code>npx sequelize-cli init</code></pre>
 
 
 * Pages: 
