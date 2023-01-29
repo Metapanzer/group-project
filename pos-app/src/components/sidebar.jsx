@@ -11,7 +11,7 @@ import { BiLogIn } from "react-icons/bi";
 
 export default function Sidebar() {
   return (
-    <div className="sticky left-0 flex flex-col gap-6 p-6 h-full w-24 rounded-r-xl bg-black justify-start items-center">
+    <div className="sticky left-0 flex flex-col gap-6 p-6 h-full w-24 bg-black justify-start items-center">
       <div className="bg-[#EB966A]/25 drop-shadow-md rounded-lg w-14 h-14 flex justify-center items-center">
         <img src={restaurant} alt="restaurant" className="h-11 w-11" />
       </div>
