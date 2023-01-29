@@ -24,28 +24,32 @@ export default function Login() {
 
   return (
     <div className="bg-[#252836] text-white h-[100vh] w-[100vw] flex items-center justify-center">
-      <div className="bg-[#1F1D2B] h-[80vh] w-[50vw] border-solid rounded-lg flex flex-col items-center justify-around">
+      <div className="bg-[#1F1D2B] h-[50vh] w-[40vw] border-solid rounded-lg flex flex-col items-center justify-around">
         <h1 className="text-3xl font-semibold">Login</h1>
         <div>
           <div>
             <input
               ref={username}
               type="text"
-              placeholder="Input your username"
-              className="py-2 px-2 w-[30vw] m-1 rounded-md"
+              placeholder="Username"
+              className="py-2 px-2 w-[30vw] h-[8vh] m-1 rounded-md text-[#1F1D2B]"
             />
           </div>
           <div>
             <input
               ref={password}
               type="password"
-              placeholder="Input your password"
-              className="py-2 px-2 w-[30vw] m-1 rounded-md"
+              placeholder="Password"
+              className="py-2 px-2 w-[30vw] h-[8vh] m-1 mb-4 rounded-md text-[#1F1D2B]"
             />
           </div>
-
+          <div>
+            <a className="text-md	text-center px-3 py-2  align border border-[#252836] ml-1 bg-[#252836] text-white rounded-lg hover:cursor-pointer hover:bg-white hover:text-[#252836] hover:duration-150">
+              Login
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
-  }
+}
