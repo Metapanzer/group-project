@@ -2,10 +2,12 @@ import axios from "axios";
 
 import { useRef, useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
+import { Navigate, useNavigate } from "react-router-dom";
 
 
 export default function Login() {
   const [message, setMessage] = useState("");
+  const navigate = useNavigate()
 
   let username = useRef();
   let password = useRef();
@@ -21,8 +23,9 @@ export default function Login() {
       );
 
       if (response.data.length === 0) throw { message: "Account Not Found" };
-      toast.success("Login Success");
       setMessage("");
+      setTimeout(navigate("/"),10000)
+      toast.success("Login Success");
     } catch (error) {
       setMessage(error.message);
       toast.error(error.message)
