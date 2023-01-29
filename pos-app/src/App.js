@@ -1,23 +1,18 @@
-import logo from "./logo.svg";
+//Import dependencies
+import { Routes, Route } from "react-router-dom";
+//Import pages
+import Cashier from "./pages/cashier";
+//Import components
+import Sidebar from "./components/sidebar";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex h-screen">
+      <Sidebar />
+      <Routes>
+        <Route path="/" element={<Cashier />} />
+      </Routes>
     </div>
   );
 }
