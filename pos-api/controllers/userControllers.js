@@ -3,6 +3,7 @@ const util = require("util");
 const query = util.promisify(db.query).bind(db);
 
 module.exports = {
+  //dummy
   login: async (req, res) => {
     try {
       //Get data from client (req.body)
