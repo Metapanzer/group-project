@@ -243,14 +243,14 @@ export default function UserManagement() {
   }, []);
 
   return (
-    <div className="p-5 bg-[#252836] overflow-y-auto">
+    <div className="p-5 bg-[#252836] overflow-y-auto w-[100vw]">
       <div className="flex flex-row justify-between">
         <div className="mb-10">
           <h1 className="text-white font-bold text-3xl mb-1">Jaegar Resto</h1>
           <DisplayDate />
         </div>
       </div>
-      <div className="bg-[#252836] text-white h-auto w-[90vw] flex items-stretch justify-center">
+      <div className="bg-[#252836] text-white h-auto flex items-stretch justify-center">
         <div className="bg-[#1F1D2B] w-[45vw] x border-solid rounded-lg flex flex-col items-center">
           <div className="text-[#EA7C69] text-xl font-bold m-4 mb-0">
             List of Users
