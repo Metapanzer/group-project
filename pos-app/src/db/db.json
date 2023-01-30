@@ -12,6 +12,41 @@
       "password": "abc123",
       "role": "cashier"
     },
-    { "id": 3, "username": "cashier2", "password": "abc123", "role": "cashier" }
+    {
+      "id": 3,
+      "username": "cashier2",
+      "password": "abc123",
+      "role": "cashier"
+    },
+    {
+      "id": 4,
+      "username": "admin2",
+      "password": "abc123",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "username": "cashier3",
+      "password": "abc123",
+      "role": "cashier"
+    },
+    {
+      "id": 6,
+      "username": "admin3",
+      "password": "abc123",
+      "role": "admin"
+    },
+    {
+      "id": 7,
+      "username": "cashier4",
+      "password": "abc123",
+      "role": "cashier"
+    },
+    {
+      "id": 8,
+      "username": "admin4",
+      "password": "abc123",
+      "role": "admin"
+    }
   ]
 }
