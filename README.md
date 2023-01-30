@@ -33,10 +33,15 @@ POS App
 
 * Database: 
 	- users: id, username, password, role, created_at
+	<pre><code>npx sequelize-cli model:generate --name users --attributes username:string,password:string,role:string</code></pre>
 	- products: id, name, price, category_id, created_at
+	<pre><code>npx sequelize-cli model:generate --name products --attributes name:string,price:integer</code></pre>
 	- categories: id, category_name, created_at
+	<pre><code>npx sequelize-cli model:generate --name categories --attributes category_name:string</code></pre>
 	- transactions: id, total_price, payment_status, created_at, expired_at, users_id
-	- transaction_details: id, products_name, price, quantity, notes, transaction_id
+	<pre><code>npx sequelize-cli model:generate --name transactions --attributes total_price:integer,expired_at:date,payment_status:string</code></pre>
+	- transaction_details: id, product_name, price, quantity, notes, transaction_id
+	<pre><code>npx sequelize-cli model:generate --name transaction_details --attributes product_name:string,price:integer,quantity:integer,notes:string</code></pre>
 
 * Food images: https://github.com/igdev116/free-food-menus-api/tree/main/menus
 
