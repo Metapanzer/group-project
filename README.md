@@ -34,8 +34,8 @@ POS App
 * Database: 
 	- users: id, username, password, role, created_at
 	<pre><code>npx sequelize-cli model:generate --name users --attributes username:string,password:string,role:string</code></pre>
-	- products: id, name, price, category_id, created_at
-	<pre><code>npx sequelize-cli model:generate --name products --attributes name:string,price:integer</code></pre>
+	- products: id, name, image, price, category_id, created_at
+	<pre><code>npx sequelize-cli model:generate --name products --attributes name:string,image:string,price:integer</code></pre>
 	- categories: id, category_name, created_at
 	<pre><code>npx sequelize-cli model:generate --name categories --attributes category_name:string</code></pre>
 	- transactions: id, total_price, payment_status, created_at, expired_at, users_id
