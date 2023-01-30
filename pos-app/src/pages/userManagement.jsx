@@ -269,7 +269,7 @@ export default function UserManagement() {
             </table>
           </div>
         </div>
-        <div className="bg-[#1F1D2B] w-[30vw] border-solid rounded-lg flex flex-col items-center justify-begin">
+        <div className="bg-[#1F1D2B] w-[30vw] border-solid rounded-lg flex flex-col items-center justify-begin ml-4">
           <div className="text-[#EA7C69] text-xl font-bold m-4">
             Admin Control
           </div>
