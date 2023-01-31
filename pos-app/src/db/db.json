@@ -17,6 +17,12 @@
       "username": "cashier2",
       "password": "abc123",
       "role": "cashier"
+    },
+    {
+      "username": "admin2",
+      "password": "abc123",
+      "role": "admin",
+      "id": 4
     }
   ]
 }

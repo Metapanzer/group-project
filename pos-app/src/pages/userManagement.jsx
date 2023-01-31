@@ -192,7 +192,7 @@ export default function UserManagement() {
         </button>
         <button
           onClick={cancelAddUser}
-          className="text-mdtext-center px-3 py-2 align border border-[#252836] m-1 mb-4 bg-[#252836] text-white rounded-lg hover:cursor-pointer hover:bg-white hover:text-[#252836] hover:duration-150"
+          className="text-mdtext-center px-3 py-2 align border border-[#252836] m-1 bg-[#252836] text-white rounded-lg hover:cursor-pointer hover:bg-white hover:text-[#252836] hover:duration-150"
         >
           Cancel
         </button>
@@ -230,7 +230,7 @@ export default function UserManagement() {
         </button>
         <button
           onClick={cancelAddUser}
-          className="text-mdtext-center px-3 py-2 align border border-[#252836] m-1 mb-4 bg-[#252836] text-white rounded-lg hover:cursor-pointer hover:bg-white hover:text-[#252836] hover:duration-150"
+          className="text-mdtext-center px-3 py-2 align border border-[#252836] m-1 bg-[#252836] text-white rounded-lg hover:cursor-pointer hover:bg-white hover:text-[#252836] hover:duration-150"
         >
           Cancel
         </button>
@@ -250,7 +250,7 @@ export default function UserManagement() {
           <DisplayDate />
         </div>
       </div>
-      <div className="bg-[#252836] text-white h-auto flex items-stretch justify-center">
+      <div className="bg-[#252836] text-white h-auto flex items-start justify-center">
         <div className="bg-[#1F1D2B] w-[45vw] x border-solid rounded-lg flex flex-col items-center">
           <div className="text-[#EA7C69] text-xl font-bold m-4 mb-0">
             List of Users
@@ -273,7 +273,7 @@ export default function UserManagement() {
           <div className="text-[#EA7C69] text-xl font-bold m-4">
             Admin Control
           </div>
-          <div>{addUserField()}</div>
+          <div className="mb-4">{addUserField()}</div>
         </div>
       </div>
       <div>
