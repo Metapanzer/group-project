@@ -243,10 +243,15 @@ export default function UserManagement() {
   }, []);
 
   return (
-    <div className="p-5 bg-[#252836] overflow-y-auto w-[100vw]">
+    <div
+      className="p-5 bg-[#252836] overflow-y-auto w-[100vw]"
+      style={{ fontFamily: "Barlow, sans-serif" }}
+    >
       <div className="flex flex-row justify-between">
         <div className="mb-10">
-          <h1 className="text-white font-bold text-3xl mb-1">Jaegar Resto</h1>
+          <h1 className="text-white font-bold text-3xl mb-1">
+            User Management
+          </h1>
           <DisplayDate />
         </div>
       </div>
