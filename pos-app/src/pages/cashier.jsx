@@ -6,7 +6,10 @@ import { SearchIcon } from "@chakra-ui/icons";
 
 export default function Cashier() {
   return (
-    <div className="p-5 bg-[#252836] w-full overflow-y-auto" >
+    <div
+      className="p-5 bg-[#252836] w-full overflow-y-auto"
+      style={{ fontFamily: "Barlow, sans-serif" }}
+    >
       <div className="flex flex-row justify-between">
         <div>
           <h1 className="text-white font-bold text-3xl mb-1">Jaegar Resto</h1>
